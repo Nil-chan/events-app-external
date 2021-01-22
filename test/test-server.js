@@ -73,8 +73,8 @@ describe('POST /event', function () {
       .reply(200, {
         "status": 200,
         "events": [
-          { title: 'an event', id: 1, description: 'something really cool' },
-          { title: 'another event', id: 2, description: 'something even cooler' },
+          { title: 'Cool event', id: 1, description: 'something really cool' },
+          { title: 'Cooler event', id: 2, description: 'something even cooler' },
           data
         ]
       });
